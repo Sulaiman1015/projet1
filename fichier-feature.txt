@@ -1,6 +1,3 @@
-<<<<<<< HEAD
 je suis fichier feature
 je suis nouvelle ligne
-=======
-je suis aussi nouvelle lign
->>>>>>> 2008c7f41e92d19a472882c5ef4b485596372f8d
+je suis troisieme ligne
