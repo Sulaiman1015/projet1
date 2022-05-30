@@ -1,1 +1,2 @@
 je suis la fichier3.
+je suis nouvelle ligne.
