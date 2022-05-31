@@ -1,0 +1,340 @@
+  107  ./bin/elasticsearch-plugin install https://github.com/medcl/elasticsearch-analysis-ik/releases/download/v6.3.2/elasticsearch-analysis-ik-6.3.2.zip
+  112  ./bin/elasticsearch-plugin install https://github.com/medcl/elasticsearch-analysis-ik/releases/download/v6.3.2/elasticsearch-analysis-ik-6.3.2.zip
+  113  ./bin/elasticsearch-plugin install https://github.com/medcl/elasticsearch-analysis-ik/releases/download/v6.3.2/elasticsearch-analysis-ik-6.3.2.zip
+  114  ./bin/elasticsearch-plugin install https://github.com/medcl/elasticsearch-analysis-ik/releases/download/7.15.2/elasticsearch-analysis-ik-7.15.2.zip
+  195  git config --global user.name "Sulaiman"
+  196  git config --global user.email sulaiman1015@gamil.com
+  199  mkdir formation-git
+  200  cd /formation-git
+  201  cd formation-git
+  205  git init
+  207  git status
+  208  git add fichier1
+  209  git add fichier1.txt
+  210  git status
+  211  git rm --cached
+  212  git rm --cached .
+  213  git rm --cached fichier1.txt
+  214  git status
+  215  git add fichier1.txt
+  216  git commit -m "first commit"
+  217  git branch -M main
+  218  git status
+  219  git log
+  220  git lola
+  221  git config --global alias.lola log --graph --decorate --oneline --all
+  222  git status
+  223  nano .gitconfig
+  224  nano .gitconfig
+  225  git status
+  226  git status
+  227  /Volumes/Document/formation-git/projet1
+  228  cd /Volumes/Document/formation-git/projet1
+  229  git stutus
+  230  git status
+  231  git add .
+  232  git status
+  233  git restore --staged fichier1.txt
+  234  git status
+  235  git add .
+  236  git commit -a - m "second commit"
+  237  git commit - m "second commit"
+  238  git commit - m "first commit"
+  239  git reset --soft HEAD^1
+  240  git add fichier1.txt
+  241  git status
+  242  git restore --staged fichier1.txt
+  243  git init
+  244  git status
+  245  git add fichier1.txt
+  246  git status
+  247  git commit -m "first commit"
+  248  git status
+  249  git branch -M main
+  250  git lola
+  251  git status
+  252  git status
+  253  git commit -m "second commit"
+  254  git status
+  255  git lola
+  256  git status
+  259  git rm -r --cached .
+  260  git add
+  261  git 
+  262  git rm -r --cached .
+  263  git add .
+  264  git lola
+  265  git rm -r --cached fichier1.txt
+  266  git lola
+  267  git add fichier1.txt
+  268  git commit -m "second commit"
+  269  git lola
+  270  git status
+  271  git reset --soft HEAD^1
+  272  git status
+  273  git restore --staged fichier1.txt
+  274  git restore fichier1.txt
+  275  git lola
+  276  git add .
+  277  git commit -m "second commit"
+  278  git lola
+  279  git status
+  280  git lola
+  281  nano .gitconfig
+  282  git config --global core.autocrlf true
+  283  nano .gitconfig
+  285  git lola
+  286  git branch
+  287  git checkout -b dev
+  291  git add .
+  292  git commit -m "add fichier2"
+  293  git status
+  294  git checkout main
+  295  git merge dev
+  296  git branch
+  297  git checkout dev
+  298  git status
+  299  git chekout main
+  300  git checkout main
+  301  git branch -d dev
+  302  git branch -b dev
+  303  git checkout main
+  304  git branch -b dev
+  305  git checkout -b dev
+  306  git merge dev
+  307  git diff main dev
+  308  git merge dev
+  309  git status
+  310  git branch
+  311  git remote add origin https://github.com/Sulaiman1015/projet1.git
+  312  git checkout dev
+  313  git push -u origin main
+  314  git checkout dev
+  315  git push -u origin dev
+  316  git fetch
+  317  git status
+  318  git pull
+  319  git checkout main
+  320  git pull
+  321  git checkout -b feature
+  323  git status
+  324  git add fichier-feature.txt
+  325  git status
+  326  git checkout dev
+  327  git branch
+  328  git pull
+  329  git diff dev feature
+  330  git merge feature
+  331  git status
+  332  git push
+  333  git checkout -d feature
+  334  git checkout dev
+  335  git branch
+  336  git branch -d feature
+  337  git add .
+  338  git status
+  339  git commit -m "added new fichier-feature"
+  340  git push
+  341  git status
+  342  git add .
+  343  git commit -m "add new line fichier"
+  344  git push
+  345  git pull
+  346  git lola
+  347  git add .
+  348  git status
+  349  git pull
+  350  git branch
+  351  git lola
+  352  git pull
+  353  git config --global  pull.rbase true
+  354  nano .gitconfig
+  356  git status
+  357  git add .
+  358  git commit
+  359  git status
+  360  git restore --staged
+  361  git pull
+  362  git add .
+  363  git status
+  364  git commit "modifed fichiers"
+  365  git commit -m  "modifed fichiers"
+  366  git status
+  367  git merge
+  368  git status
+  369  git pull
+  370  git merge dev
+  371  git branch
+  372  git add .
+  373  git status
+  374  git push
+  375  git fetch
+  376  git pull
+  377  git config pull.rebase false
+  378  git pull
+  379  git add .
+  380  git commit -m "conflit resole"
+  381  git add .
+  382  git status
+  383  git commit -m "modifié"
+  384  git push
+  385  git status
+  386  git pull
+  387  nano .gitconfig
+  389  git reflog
+  390  git reflog dev
+  392  git diff dev@{0} main@{0.minute.ago}
+  393  git diff dev@{0} main@{10.hours.ago}
+  394  git tag v1.0.0
+  395  git status
+  396  git push --tags
+  397  git lola
+  398  git checkout featurebrach
+  400  git add .
+  401  git commit -m "add contact.txt"
+  402  git push
+  403  git checkout
+  404  git pull
+  405  git lola
+  406  git branch -m featurebranch featurebrach
+  407  git checkout dev
+  408  git push
+  409  git status
+  410  git pull
+  411  git merge
+  412  git brach -d featurebranch
+  413  git branch -d featurebranch
+  414  git tag v2.0.0
+  415  git push --tags
+  416  git lola
+  417  git status
+  418  git commit -m "add tag"
+  419  git push
+  420  git lola
+  421  git status
+  422  git pull
+  423  git lala
+  424  git lola
+  425  git checkout dev
+  426  git checkout -b bugfix
+  427  git status
+  428  git git add .
+  429  git add .
+  430  git commit -m "contact.txt bug fixed"
+  431  git push -u origin bugfix
+  432  git status
+  433  git lola
+  434  git branch
+  435  git checkout -d bugfix
+  436  git branch
+  437  git branch -d bugfix
+  438  git branch
+  439  git checkout dev
+  440  git branch
+  441  git pull
+  442  git git checkout -b bugfix
+  443  git checkout -b bugfix
+  444  git status
+  445  git add .
+  446  git status
+  447  git commit -m "buf fixed"
+  448  git push
+  449  git push --set-upstream origin bugfix
+  450  git status
+  451  git lola
+  452  git checkout dev
+  453  git status
+  454  git clone https://github.com/nicocposs/exercice-git.git
+  455  cd exercice-git
+  456  git dev
+  457  git checkout dev
+  458  git pull
+  459  git status
+  460  git add .
+  461  git status
+  462  git commit -m "first commit"
+  463  git commit -m "first commit"
+  464  git add .
+  465  git status
+  466  git restore --staged testSulaiman.txt
+  467  git status
+  468  git add testSulaiman.txt
+  469  git status
+  470  git commit "add testSulaiman.txt"
+  471  git commit -m "add testSulaiman.txt"
+  472  git push
+  473  git pull
+  474  git config pull.rebase false
+  475  git status
+  476  git pull
+  478  cd exercice-git
+  479  git pull
+  480  git clone https://github.com/nicocposs/exercice-git.git
+  481  git status
+  482  git pull
+  483  git clone https://github.com/nicocposs/exercice-git.git
+  484  cd excercice-git
+  485  git branch
+  486  git status
+  487  git remote
+  488  git clone https://github.com/nicocposs/exercice-git.git
+  489  git clone https://github.com/nicocposs/exercice-git.git
+  490  cd exercice-git
+  491  git branch
+  492  git checkout dev
+  493  git branch
+  494  git checkout branchSulaiman
+  498  /Volumes/Document/formation-git
+  499  git branch
+  500  git lola
+  501  git status
+  502  git branch
+  503  git add .
+  504  git status
+  505  git pull
+  506  git push
+  507  git lola
+  508  git add .
+  509  git status
+  510  git commit "add new feature2"
+  511  git pull
+  512  git push
+  513  git add .
+  514  git commit "add files"
+  515  git commit -m "add files"
+  516  git status
+  517  git push
+  518  git add .
+  519  git status
+  520  git commit -m  "contenue readme"
+  521  git push
+  522  git pull
+  523  git status
+  524  git checkout
+  525  git branch
+  526  git grep -f -i "sui*"
+  527  git grep -f -i 'sui*'
+  528  git grep -f -i 'sui*' $(git rev-list -all)
+  531  git bisect start
+  532  git bisect reset
+  533  git checkout main
+  534  git pull
+  535  git lola
+  536  git checkout dev
+  537  git format-patch dev -o patches
+  538  git checkout main
+  539  git format-patch dev -o patches
+  540  git format-patch main  -o patches
+  541  git format-patch origin/main  -o patches
+  542  git checkout dev
+  543  git format-patch origin/main  -o patches
+  544  git format-patch main
+  545  git format-patch dev
+  546  git pull
+  547  git checkout main
+  548  git format-patch dev -o patches
+  549  git add .
+  550  git commit -m "add .gitignore"
+  551  git push
+  552  history grep 'git' >>fichier_cmdGIT.txt
+  553  history | grep "git" >> fichier_cmdGIT.txt
